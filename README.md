@@ -1,33 +1,36 @@
-#### Fitur Aplikasi Sistem Informasi UKK/PKL Online
-🔑 Authentication
+🚀 Fitur Sistem Informasi UKK/PKL Online
+👨‍🏫 Untuk Guru
 
-Guru login dengan username & password
+Manajemen siswa lengkap dengan detail profil & dokumentasi kegiatan
 
-Siswa login dengan nama lengkap & NIS
+Penjadwalan PKL yang bisa ditambah, diubah, atau dihapus dengan mudah
 
-Logout aman kembali ke halaman login
+Pemberian & pemantauan tugas kepada seluruh siswa
 
-🖥️ Web untuk Guru
+Penilaian digital langsung di sistem, tanpa kertas
 
-Penilaian digital langsung oleh guru pembimbing
+Laporan otomatis berbentuk PDF dengan tanda tangan elektronik
 
-Validasi laporan dengan tanda tangan elektronik
+👩‍🎓 Untuk Siswa
 
-Export laporan otomatis ke format PDF berisi nilai, catatan, dan lampiran
+Upload laporan harian berupa teks maupun file
 
+Upload foto dokumentasi kegiatan PKL dengan keterangan tambahan
 
-📱 Mobile untuk Siswa
+Melihat daftar tugas yang diberikan guru beserta status pengerjaan
 
-Dashboard: profil siswa + menu navigasi
+Fitur progress tracker untuk memantau capaian PKL pribadi
 
-Laporan Tugas: daftar tugas, detail tugas, upload jawaban (foto/dokumen), ubah status menjadi Sudah Dikerjakan
+Download hasil nilai PKL dalam bentuk PDF resmi
 
-Laporan Dokumentasi: upload foto kegiatan + keterangan tambahan
+⚡ Fitur Umum
 
-Progress PKL: daftar tugas yang sudah dinilai, status nilai, download laporan PDF
+Sistem login terpisah antara guru dan siswa
 
-Penilaian digital langsung oleh guru pembimbing
+Tampilan dashboard interaktif sesuai peran (guru/siswa)
 
-Validasi laporan dengan tanda tangan elektronik
+Navigasi sederhana agar mudah digunakan
 
-Export laporan otomatis ke format PDF berisi nilai, catatan, dan lampiran
+Data tersimpan otomatis dalam basis data terintegrasi
+
+Mendukung akses multi-device (web & mobile)
