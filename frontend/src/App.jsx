@@ -1,14 +1,34 @@
-import { BrowserRouter, Route, Routes } from "react-router";
-import Home from "./pages/Home";
-import About from "./pages/About";
+// import React from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Login from "./pages/Login";
 
-function App() {
+// function App() {
+//   return (
+//     <Router>
+//       <Routes>
+//         <Route path="/" element={<Login />} />
+//       </Routes>
+//     </Router>
+//   );
+// }
+
+// export default App;
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+
+export default function App() {
   return (
-    <BrowserRouter basename="/mentorx">
+    <Router>
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
+        <Route path="/" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
+
+
+
+
