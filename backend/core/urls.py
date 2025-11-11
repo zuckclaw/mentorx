@@ -13,7 +13,3 @@ urlpatterns = [
 
 def test_api(request):
     return JsonResponse({"message": "API core jalan!"})
-
-urlpatterns = [
-    path("siswa/", test_api),  # http://localhost:8000/api/siswa/
-]

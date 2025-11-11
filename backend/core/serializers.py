@@ -51,3 +51,8 @@ class JurusanSerializer(serializers.ModelSerializer):
     class Meta:
         model = Jurusan
         fields = '__all__'
+
+class ProgressPKLSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProgressPKL
+        fields = '__all__'
